@@ -5,9 +5,12 @@ class Header extends Component {
     /// react provides
 
     render(){
+        
         return (
             <header>
-                <div>Logo</div>
+                <div className="logo"
+                onClick = {()=> console.log('clicked')}
+                >Logo</div>
                 <input/>
             </header>
         )
