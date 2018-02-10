@@ -15,7 +15,7 @@ const AlbumList = (props) => {
     
     return(
         console.log(),
-        <div className="albums_list">    
+        <div className="album_list">    
             {showList(props)}
         </div>
     )
